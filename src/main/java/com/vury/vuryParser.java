@@ -1,12 +1,10 @@
-// Generated from C:/Users/alexe/IdeaProjects/vury-lang/src/main/kotlin\vury.g4 by ANTLR 4.9.2
+package com.vury;
+
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
-import org.antlr.v4.runtime.misc.*;
 import org.antlr.v4.runtime.tree.*;
 import java.util.List;
-import java.util.Iterator;
-import java.util.ArrayList;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class vuryParser extends Parser {
@@ -81,7 +79,7 @@ public class vuryParser extends Parser {
 	}
 
 	@Override
-	public String getGrammarFileName() { return "vury.g4"; }
+	public String getGrammarFileName() { return "grammar/vury.g4"; }
 
 	@Override
 	public String[] getRuleNames() { return ruleNames; }

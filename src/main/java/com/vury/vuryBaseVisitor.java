@@ -1,4 +1,5 @@
-// Generated from C:/Users/alexe/IdeaProjects/vury-lang/src/main/kotlin\vury.g4 by ANTLR 4.9.2
+package com.vury;
+
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
 /**
